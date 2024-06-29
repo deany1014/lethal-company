@@ -1,5 +1,7 @@
 {
   "item.lethal.lethal": "Lethal Company",
 
+  "block.lethal.company_soil_block": "Company Soil/Ground",
+
   "itemgroup.lethal": "Lethal Company"
 }

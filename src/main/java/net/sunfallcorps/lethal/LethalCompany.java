@@ -2,6 +2,7 @@ package net.sunfallcorps.lethal;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.sunfallcorps.lethal.block.ModBlocks;
 import net.sunfallcorps.lethal.item.ModItems;
 import net.sunfallcorps.lethal.item.ModItemsGroups;
 import org.slf4j.Logger;
@@ -21,7 +22,7 @@ public class LethalCompany implements ModInitializer {
 		// Proceed with mild caution.
 		ModItems.registerModItems();
 		ModItemsGroups.registerItemGroups();
-		LOGGER.info("Hello Fabric world!");
+		ModBlocks.registerModBlocks();
 
 	}
 }
