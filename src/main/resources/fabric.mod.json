@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "lethal",
+	"version": "${version}",
+	"name": "Lethal Company",
+	"description": "Ever dreamed of playing Lethal Company in Minecraft? Well now you can",
+	"authors": [
+		"deany1014",
+		"ItzSlowAnime"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/lethal/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.sunfallcorps.lethal.LethalCompany"
+		],
+		"client": [
+			"net.sunfallcorps.lethal.LethalCompanyClient"
+		],
+		"fabric-datagen": [
+			"net.sunfallcorps.lethal.LethalCompanyDataGenerator"
+		]
+	},
+	"mixins": [
+		"lethal.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
